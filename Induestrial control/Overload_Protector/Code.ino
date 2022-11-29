@@ -68,8 +68,6 @@ void loop() {
   lcd.print(cc);
   lcd.print("A");
 
-
-
   // "Increasing" section
   if (input == 1 && ccc == 0 )
   {
@@ -132,27 +130,6 @@ void loop() {
 
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   // "SET" section
 
   else if (input4 == 1 && cc > 0 )
@@ -194,12 +171,6 @@ void loop() {
     self = 5;
     hh = 5;
   }
-
-
-
-
-
-
 
   else
   {
